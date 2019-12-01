@@ -6,9 +6,9 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark mb-5">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             Pets
-          </a>
+          </Link>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
