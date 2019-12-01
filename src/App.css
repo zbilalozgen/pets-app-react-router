@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.pet-name {
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f5a623;
+  margin-bottom: 30px;
+}
+
+.pet-img {
+  max-width: 100%;
+}
+
+.pet-desc {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #4a4a4a;
+}
+.pet-breed {
+  font-size: 1.2rem !important;
+}
+
+.active {
+  background: #f5a623 !important;
+  border: 1px solid #f5a623 !important;
+}
+
+.App-header {
+  background-color: #f5a623;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navbar {
+  background: #f5a623;
+}
+
+a.nav-link {
+  color: white !important;
+}
