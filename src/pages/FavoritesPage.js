@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export default class FavoritesPage extends Component {
   constructor(props) {
@@ -11,16 +12,16 @@ export default class FavoritesPage extends Component {
   }
 
   componentDidMount() {
-    axios
-      .get(`http://5dd7af92505c590014d3b4ac.mockapi.io/favorites`)
-      .then(res =>
-        res.data.map(pet => {
-          console.log(pet.pet);
+    axios.get(`https://5d9f63b24d823c0014dd30d1.mockapi.io/test`).then(res =>
+      res.data.map(todo =>
+        this.setState({
+          favorites: todo
         })
-      );
+      )
+    );
   }
 
   render() {
-    return <div></div>;
+    return <h1>In Development...</h1>;
   }
 }
